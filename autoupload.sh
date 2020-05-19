@@ -32,7 +32,7 @@ FILTER_FILE='*RARBG*.txt,*RARBG*.exe,UUE29.mp4,*二维码.png,*最新地址*.png
 #INCLUDE_FILE='mp4,mkv,rmvb,mov'
 
 # 排除文件类型，仅 BT 多文件下载时有效，用于过滤无用文件。排除的文件将被删除，不会上传。
-EXCLUDE_FILE='html,url,lnk,exe'
+EXCLUDE_FILE='html,url,lnk,exe,nfo'
 
 ## 高级设置 ##
 
