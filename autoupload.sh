@@ -61,6 +61,7 @@ export RCLONE_RETRIES_SLEEP=30s
 RETRY_NUM=3
 
 #============================================================
+source ./filename.sh
 
 # FILE_PATH=$3                                          # Aria2传递给脚本的文件路径。BT下载有多个文件时该值为文件夹内第一个文件，如/root/Download/a/b/1.mp4
 # REMOVE_DOWNLOAD_PATH=${FILE_PATH#${DOWNLOAD_PATH}/}   # 路径转换，去掉开头的下载路径。
